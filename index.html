@@ -1,9 +1,13 @@
 <title>FRKKKKKLTL</title>
 <head>
+    <!-- bootstrap and jquery -->
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
     <script src="jquery/jquery-3.1.0.min.js"></script>
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <!-- fabric.js -->
+    <script src="bower_components/fabric.js/dist/fabric.min.js"></script>
 
     <!-- mine -->
     <link rel="stylesheet" href="style.css">
@@ -14,10 +18,16 @@
 <div class="container text-center">
     <h1>FR <b>KKKKKK</b> tl</h1>
     <hr>
+    <div class="canvas-container">
     <canvas id="refCanvas" width="200px" height="200px"></canvas>
+    </div>
     <hr>
+    <button class="btn btn-default" onclick="copyToTop()">Copy</button>
+    <hr>
+    <div class="canvas-container">
     <canvas id="mainCanvas" width="700px" height="700px"></canvas>
+        </div>
 </div>
 </body>
-<script src="therealcode.js"></script>
+<script src="therealcodev2.js"></script>
 </html>
